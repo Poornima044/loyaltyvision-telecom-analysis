@@ -83,9 +83,13 @@ Customers with shorter tenure and negative revenue growth are most at risk.
 A significant percentage of monthly revenue is lost due to churn, highlighting retention importance.
 
 ### 📂 Repository Structure
-├── telecom_analysis.sql       # SQL queries & analysis
+
+├── telecom_analysis.sql       # SQL queries & analysis  
+
 ├── LoyaltyVisionDashboard.pbix # Power BI dashboard
+
 ├── dashboard.png              # Screenshot of dashboard
+
 └── README.md                  # Project documentation
 
 ### 🚀 How to Use
