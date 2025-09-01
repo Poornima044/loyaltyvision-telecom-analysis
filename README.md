@@ -1,10 +1,10 @@
-📂 LoyaltyVision Telecom Churn Analysis
-📌 Project Overview
+##📂 LoyaltyVision Telecom Churn Analysis
+###📌 Project Overview
 
 This project analyzes telecom customer churn using SQL and visualizes insights with a Power BI dashboard.
 The goal is to identify key churn drivers, customer behavior patterns, and revenue impact to support business decisions and improve retention strategies.
 
-🛠️ Tools & Technologies
+###🛠️ Tools & Technologies
 
 SQL (MySQL) → Data exploration & analysis
 
@@ -12,7 +12,7 @@ Power BI → Dashboard & visualization
 
 GitHub → Project documentation and version control
 
-📊 SQL Analysis
+###📊 SQL Analysis
 
 The SQL scripts (telecom_analysis.sql) include:
 
@@ -40,7 +40,7 @@ Identifying at-risk customers (short tenure + declining revenue)
 
 Combined segmentation (Gender + Marital Status + City Tier)
 
-📌 Key SQL Queries include:
+###📌 Key SQL Queries include:
 
 Churn by City Tier
 
@@ -50,7 +50,7 @@ Revenue impact of churn
 
 Churn by Payment Method
 
-📈 Power BI Dashboard
+###📈 Power BI Dashboard
 
 An interactive Power BI dashboard was created to visualize churn patterns and KPIs:
 
@@ -72,7 +72,7 @@ Dashboard Preview:
 
 (If GitHub doesn’t render, download LoyaltyVisionDashboard.pbix to explore the interactive dashboard.)
 
-🔑 Insights
+###🔑 Insights
 
 Certain City Tiers and Segments show the highest churn rates.
 
@@ -82,19 +82,19 @@ Customers with shorter tenure and negative revenue growth are most at risk.
 
 A significant percentage of monthly revenue is lost due to churn, highlighting retention importance.
 
-📂 Repository Structure
+###📂 Repository Structure
 ├── telecom_analysis.sql       # SQL queries & analysis
 ├── LoyaltyVisionDashboard.pbix # Power BI dashboard
 ├── dashboard.png              # Screenshot of dashboard
 └── README.md                  # Project documentation
 
-🚀 How to Use
+###🚀 How to Use
 
 Run telecom_analysis.sql in MySQL Workbench (or any SQL environment) after loading the telecom dataset.
 
 Open LoyaltyVisionDashboard.pbix in Power BI Desktop to explore the dashboard.
 
-📬 Contact
+###📬 Contact
 
 👩‍💻 Poornima V
 📧 poornimagowda6464@gmail.com
