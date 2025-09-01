@@ -41,7 +41,6 @@ The SQL scripts (`telecom_analysis.sql`) include:
 ---
 
 ## 📈 Power BI Dashboard
-Dashboard.png
 An interactive **Power BI dashboard** was created to visualize churn patterns and KPIs:  
 
 ### Key Features:
@@ -53,7 +52,7 @@ An interactive **Power BI dashboard** was created to visualize churn patterns an
   - Segment-wise churn heatmaps  
 
 ### Dashboard Preview:
-![Dashboard Screenshot](dashboard.png)  
+![Dashboard Screenshot](Dashboard.png)  
 
 *(If GitHub doesn’t render, download `LoyaltyVisionDashboard.pbix` to explore the interactive dashboard.)*  
 
