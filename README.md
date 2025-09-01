@@ -41,6 +41,7 @@ The SQL scripts (`telecom_analysis.sql`) include:
 ---
 
 ## 📈 Power BI Dashboard
+Dashboard.png
 An interactive **Power BI dashboard** was created to visualize churn patterns and KPIs:  
 
 ### Key Features:
