@@ -85,7 +85,7 @@ An interactive **Power BI dashboard** was created to visualize churn patterns an
 ---
 
 ## 📬 Contact
-👩‍💻 **Poornima Gowda**  
+👩‍💻 **Poornima V**  
 📧 poornimagowda6464@gmail.com  
 🔗 https://www.linkedin.com/in/contact-poornima
 
