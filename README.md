@@ -68,8 +68,11 @@ An interactive **Power BI dashboard** was created to visualize churn patterns an
 
 ## 📂 Repository Structure
 ├── telecom_analysis.sql # SQL queries & analysis
+
 ├── LoyaltyVisionDashboard.pbix # Power BI dashboard
+
 ├── dashboard.png # Screenshot of dashboard
+
 └── README.md # Project documentation
 
 
