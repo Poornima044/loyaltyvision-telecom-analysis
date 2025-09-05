@@ -1,15 +1,27 @@
 # 📂 LoyaltyVision Telecom Churn Analysis
 
 ## 📌 Project Overview
-This project analyzes **telecom customer churn** using **SQL** and visualizes insights with a **Power BI dashboard**.  
-The goal is to identify key churn drivers, customer behavior patterns, and revenue impact to support business decisions and improve retention strategies.  
+This project analyzes **telecom customer churn** end-to-end using **Excel, SQL, and Power BI**.  
+The workflow includes **data cleaning (Excel)**, **analysis (SQL)**, and **visualization (Power BI)** to identify churn drivers, customer behavior patterns, and revenue impact, helping support business decisions and retention strategies.  
 
 ---
 
 ## 🛠️ Tools & Technologies
+- **Excel** → Data cleaning & preprocessing  
 - **SQL (MySQL)** → Data exploration & analysis  
 - **Power BI** → Dashboard & visualization  
 - **GitHub** → Project documentation and version control  
+
+---
+
+## 🧹 Data Cleaning (Excel)
+Before analysis, the raw dataset was cleaned using **Excel**:
+- Removed duplicates & handled missing values  
+- Standardized column names and formats  
+- Corrected inconsistent values (e.g., gender, city tier, payment methods)  
+- Created derived fields for tenure buckets and revenue growth  
+
+The cleaned dataset was then imported into **MySQL** for structured analysis.  
 
 ---
 
@@ -67,26 +79,21 @@ An interactive **Power BI dashboard** was created to visualize churn patterns an
 ---
 
 ## 📂 Repository Structure
-├── telecom_analysis.sql # SQL queries & analysis
-
-├── LoyaltyVisionDashboard.pbix # Power BI dashboard
-
-├── dashboard.png # Screenshot of dashboard
-
-└── README.md # Project documentation
-
+├── telecom_analysis.sql # SQL queries & analysis  
+├── LoyaltyVisionDashboard.pbix # Power BI dashboard  
+├── Dashboard.png # Screenshot of dashboard  
+└── README.md # Project documentation  
 
 ---
 
 ## 🚀 How to Use
-1. Run `telecom_analysis.sql` in MySQL Workbench (or any SQL environment) after loading the `telecom` dataset.  
-2. Open `LoyaltyVisionDashboard.pbix` in Power BI Desktop to explore the dashboard.  
+1. Perform **data cleaning in Excel** (dataset included in repo if available).  
+2. Run `telecom_analysis.sql` in MySQL Workbench (or any SQL environment).  
+3. Open `LoyaltyVisionDashboard.pbix` in Power BI Desktop to explore the dashboard.  
 
 ---
 
 ## 📬 Contact
 👩‍💻 **Poornima V**  
 📧 poornimagowda6464@gmail.com  
-🔗 https://www.linkedin.com/in/contact-poornima
-
-
+🔗 [LinkedIn](https://www.linkedin.com/in/contact-poornima)
