@@ -49,34 +49,32 @@ The SQL scripts (`telecom_analysis.sql`) include:
 - Cohort Analysis (Tenure Groups)  
 - Revenue impact of churn  
 - Churn by Payment Method  
-
+ 
 ---
 
-## 📈 Power BI Dashboard
-An interactive **Power BI dashboard** was created to visualize churn patterns and KPIs:  
-
-### Key Features:
+## Key Features:
 - **Filters**: City Tier, Gender, Tenure, Account Segment, Payment Method  
 - **KPIs & Visuals**:
   - Churn rate by customer segment  
   - Revenue lost vs retained due to churn  
   - Churn by payment method, marital status, and tenure  
-  - Segment-wise churn heatmaps
- 
+  - Segment-wise churn heatmaps  
+
 ---
 
- ## 🧩 Example SQL Query
- - Churn by City Tier:
+## 🧩 Example SQL Query – Churn by City Tier
+```sql
 SELECT City_Tier, 
        COUNT(*) AS total_customers, 
        SUM(CASE WHEN Churn = 1 THEN 1 ELSE 0 END) AS churned_customers
 FROM telecom
 GROUP BY City_Tier
 ORDER BY churned_customers DESC;
+```
 
 --- 
 
-### Dashboard Preview:
+## Dashboard Preview:
 ![Dashboard Screenshot](Dashboard.png)  
 
 *(If GitHub doesn’t render, download `LoyaltyVisionDashboard.pbix` to explore the interactive dashboard.)*  
