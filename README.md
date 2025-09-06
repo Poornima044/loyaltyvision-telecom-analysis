@@ -61,7 +61,19 @@ An interactive **Power BI dashboard** was created to visualize churn patterns an
   - Churn rate by customer segment  
   - Revenue lost vs retained due to churn  
   - Churn by payment method, marital status, and tenure  
-  - Segment-wise churn heatmaps  
+  - Segment-wise churn heatmaps
+ 
+---
+
+ ## 🧩 Example SQL Query
+SELECT City_Tier, 
+       COUNT(*) AS total_customers, 
+       SUM(CASE WHEN Churn = 1 THEN 1 ELSE 0 END) AS churned_customers
+FROM telecom
+GROUP BY City_Tier
+ORDER BY churned_customers DESC;
+
+--- 
 
 ### Dashboard Preview:
 ![Dashboard Screenshot](Dashboard.png)  
